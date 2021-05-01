@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/pin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/pin2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtPin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin1"
+        app:layout_constraintBottom_toBottomOf="@+id/pin1"
+        app:layout_constraintEnd_toStartOf="@+id/pin1"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pin1" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/pin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/pin3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pin1" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtPin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin2"
+        app:layout_constraintBottom_toBottomOf="@+id/pin2"
+        app:layout_constraintEnd_toStartOf="@+id/pin2"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pin2" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/pin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/pin4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pin2" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtPin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin3"
+        app:layout_constraintBottom_toBottomOf="@+id/pin3"
+        app:layout_constraintEnd_toStartOf="@+id/pin3"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pin3" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/pin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pin3" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtPin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin4"
+        app:layout_constraintBottom_toBottomOf="@+id/pin4"
+        app:layout_constraintEnd_toStartOf="@+id/pin4"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pin4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
